@@ -1,0 +1,11 @@
+## ignore .Rproj
+*.Rproj
+themes/
+static/
+resources/
+R/
+layouts/
+data/
+archetypes/
+
+.Rproj.user
