@@ -2,32 +2,74 @@
 <html>
 <head>
   <title>About Me - Surya Teja Eada</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+    }
+
+    .photo-column {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f2f2f2; /* Background color for the photo column */
+    }
+
+    .photo {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+    }
+
+    .info-column {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .info {
+      line-height: 1.6;
+    }
+  </style>
 </head>
 <body>
   <section id="aboutMe">
-    <h3>About Me</h3>
-    <img src="surya_nh.JPG" alt="New Hampshire travels during Fall" width="200" height="200">
-    <p>
-      Hello! My name is Surya Teja Eada and I am a PhD student
-      specializing in Statistics.  I completed my undergraduate
-      studies in Statistics at Indian Statistical Institute.
-      Currently, I am pursuing my doctoral degree at University of
-      Connecticut.
-    </p>
-    <p>
-      My research interests lie in continuous time stochastic
-      processes, and I am passionate about exploring various
-      statistical models. I have experience in regression analysis,
-      time series, parameter estimation, clustering and classification
-      problems.
-    </p>
-    <p>
-      In my free time, I enjoy traveling, hiking, playing sports,
-      painting and more. I am also actively involved in any social
-      groups for community building and voluntary activities.  Feel
-      free to explore my website to learn more about my research,
-      publications, and CV.
-    </p>
+    <div class="photo-column">
+      <img class="photo" src="surya_nh.JPG" alt="New Hampshire travels during Fall">
+    </div>
+    <div class="info-column">
+      <h3>About Me</h3>
+      <div class="info">
+        <p>
+          Hello! My name is Surya Teja Eada and I am a PhD student
+          specializing in Statistics. I completed my undergraduate
+          studies in Statistics at Indian Statistical Institute.
+          Currently, I am pursuing my doctoral degree at University of
+          Connecticut.
+        </p>
+        <p>
+          My research interests lie in continuous time stochastic
+          processes, and I am passionate about exploring various
+          statistical models. I have experience in regression analysis,
+          time series, parameter estimation, clustering and classification
+          problems.
+        </p>
+        <p>
+          In my free time, I enjoy traveling, hiking, playing sports,
+          painting and more. I am also actively involved in any social
+          groups for community building and voluntary activities. Feel
+          free to explore my website to learn more about my research,
+          publications, and CV.
+        </p>
+      </div>
+    </div>
   </section>
 </body>
 </html>
